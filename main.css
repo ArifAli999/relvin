@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap');
+
+
+html {
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+html, body {
+    margin: 0;
+    height: 100% !important;
+    width: 100%;
+}
+.firstSection {
+    background: rgb(136, 68, 219);
+
+}
+.innerwrapper {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.navigation {
+    padding-top: 1%;
+    color: #fff;
+    font-family: Muli;
+    font-weight: 600;
+}
+img.headerimg {
+    width: 61%;
+    margin-left: 0%;
+    margin-bottom: 28%;
+}
+
+li.rightSide {
+    float: right;
+    display: inline-block;
+    padding: 10px;
+}
+li.leftSide {
+    padding: 10px;
+}
+h2.headingg {
+    font-family: Muli;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+}
+.sectiononecontent {
+    margin-top: 2%;
+}
+.box-container {
+    padding: 10px;
+    margin-top: 0%;
+    margin-bottom: 6%;
+    margin-left: 6%;
+    margin-right: 5%;
+    padding-top: 7%;
+}
+.content-box {
+    background: #fff;
+    padding: 10px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 0;
+    margin-bottom: -8%;
+    z-index: 22222;
+    position: relative;
+    top: -195px;
+}
+
+
+.secondsection {
+    background: rgb(250, 248, 244);
+    /* padding-top: 20%; */
+    padding-bottom: 3%;
+}
+h3.titleh {
+    font-family: Muli;
+    color: #000;
+    font-weight: 600;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+p.infotext {
+    font-family: Muli;
+    font-size: 13px;
+    color: #777474;
+    font-weight: 400;
+}
+h4.strongtext {
+    font-family: Muli;
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
+}
+button.circular {
+    /* padding: 6px; */
+    background: rgb(253, 78, 87);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 4%;
+    font-size: 23px;
+    color: #fff;
+    line-height: 2.6;
+    text-align: center;
+}
+
+.secondcontent {
+    margin-left: 13%;
+    margin-right: 10%;
+}
+h4.textcenter {
+    text-align: center;
+    font-family: Muli;
+    font-size: 26px;
+    font-weight: 800;
+    font-style: strong;
+    color: #000;
+}
+
+.columnedbox {
+    margin-top: 5%;
+    background: #fff;
+    margin-bottom: 5%;
+    height: 300px;
+    width: 323px;
+}
+.boxcon {
+    /* background: #fff; */
+    /* margin-bottom: 4%; */
+    /* margin-top: 9%; */
+    /* padding: 10px; */
+    /* padding-bottom: 10%; */
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h2.styled {
+    font-family: Muli;
+    font-size: 40px;
+    color: #000;
+    font-weight: 400;
+}
+h2.boxed {
+    font-family: Muli;
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+}
+.contained {
+    text-align: center;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 0%;
+}
+.thirdsection {
+    padding: 10px;
+    margin-top: 2%;
+}
+.thirdcontent {
+    margin-top: 10%;
+    margin-left: 1%;
+    padding: 10px;
+}
+img.rightyimg {
+    width: 80%;
+    margin-left: 7%;
+    margin-top: -2%;
+}
+li.fist {
+    /* padding: 10px; */
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10%;
+    padding-top: 9%;
+}
+ul.stylish {
+    padding: 10px;
+    
+}
+.fourthsection {
+  
+    background: #8844db;
+}
+
+.textcenter {
+    padding: 10px;
+  
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-left: 26%;
+    margin-right: 25%;
+}
+h2.center-text {
+    color: #fff;
+    font-family: Muli;
+    font-size: 26px;
+    font-weight: 800;
+}
+p.lighttest {
+    font-family: Muli;
+    font-weight: 200;
+    color: #e0dfdf;
+    font-size: 11px;
+}
+button.lightweight {
+    background: transparent;
+    padding: 2%;
+    width: 20%;
+    
+    border-radius: 20px;
+    border: 1px solid #fff;
+    font-family: Muli;
+    font-size: 13px;
+    font-weight: 200;
+    color: #fff;
+}
+button:focus {outline:0;}
+button.lightweight:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+li.tableli:before {
+    
+    content: '✓';
+    margin-right: 7px;
+    color: #8844db;
+}
+h2.tabletit {
+    font-size: 15px;
+    color: #000;
+    font-family: Muli;
+    font-weight: 600;
+}
+.tablecontent {
+    padding: 20px;
+    border-bottom: 3px solid #8844db;
+    box-shadow: 0px 3px 9px 0px rgba(99, 99, 99, 0.08);
+}
+li.tableli {
+    font-family: Muli;
+    font-weight: 600;
+    font-size: 13px;
+    color: #000;
+}
